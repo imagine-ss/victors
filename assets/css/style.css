@@ -2400,26 +2400,6 @@ ul.list-icons li i {
   transition: transform 0.24s ease-in-out, -webkit-transform 0.24s ease-in-out;
 }
 
-#back-to-top:hover::before {
-  -webkit-transform: scaleY(1);
-  -ms-transform: scaleY(1);
-  transform: scaleY(1);
-  -webkit-transform-origin: bottom;
-  -ms-transform-origin: bottom;
-  transform-origin: bottom;
-}
-
-#back-to-top.show {
-  z-index: 999;
-  opacity: 1;
-}
-
-#back-to-top i {
-  color: var(--global--color-white);
-  font-weight: 700;
-  font-size: 15px;
-}
-
 @media screen and (max-width: 991.98px) {
   #back-to-top {
     width: 50px;
